@@ -1,0 +1,42 @@
+{
+  "name": "Shivam S. Ramoliya - Portfolio",
+  "short_name": "Shivam's Portfolio",
+  "description": "Portfolio showcasing Shivam S. Ramoliya's skills and projects as a Full Stack Developer, AI-ML Enthusiast, and Tech Explorer",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#0ea5e9",
+  "background_color": "#020617",
+  "orientation": "any",
+  "categories": [
+    "portfolio",
+    "developer",
+    "technology"
+  ],
+  "icons": [
+    {
+      "src": "/Shivam-1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Shivam-1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Shivam-1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Shivam-1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
