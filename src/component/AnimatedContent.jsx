@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const AnimatedContent = ({ children, delay = 2000 }) => {
+const AnimatedContent = ({ children, delay = 200 }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -13,8 +13,9 @@ const AnimatedContent = ({ children, delay = 2000 }) => {
 
   return (
     <div
-      className={`transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-        }`}
+      className={`transition-all duration-700 ${
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+      }`}
     >
       {children}
     </div>

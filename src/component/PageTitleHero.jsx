@@ -6,7 +6,7 @@ const PageTitleHero = ({ title, gradientText, description }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 2000);
+    }, 600);
 
     return () => clearTimeout(timer);
   }, []);

@@ -31,8 +31,9 @@ function AppContent() {
     <div className="min-h-screen">
       <TabNavigation />
       <div
-        className={`transition-opacity duration-400 ${isTransitioning ? "opacity-0" : "opacity-100"
-          }`}
+        className={`transition-opacity duration-200 ${
+          isTransitioning ? "opacity-0" : "opacity-100"
+        }`}
       >
         <Routes>
           <Route path="/" element={<HomePage />} />

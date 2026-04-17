@@ -86,7 +86,7 @@ const Hero = ({ profileImage, name, titles }) => {
           {/* Social Links: Responsive sizing and positioning */}
           <div className="flex gap-4 sm:gap-6 justify-center md:justify-start pt-4 flex-wrap animate-slide-in-up animate-stagger-5">
             <a
-              href="https://github.com/Shivam-Ramoliya/"
+              href="https://github.com/Shivam-S-Ramoliya"
               className="text-gray-400 hover:text-emerald-400 transition-all duration-300 hover:scale-125 hover:-translate-y-1 transform"
               title="GitHub"
             >
@@ -99,7 +99,7 @@ const Hero = ({ profileImage, name, titles }) => {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/ramoliya-shivam-sureshbhai-753265287/"
+              href="https://www.linkedin.com/in/shivam-s-ramoliya-753265287/"
               className="text-gray-400 hover:text-emerald-400 transition-colors duration-300"
               title="LinkedIn"
             >
@@ -112,7 +112,7 @@ const Hero = ({ profileImage, name, titles }) => {
               </svg>
             </a>
             <a
-              href="https://x.com/_s_s_ramolia_07/"
+              href="https://x.com/shivam_ramoliya"
               className="text-gray-400 hover:text-emerald-400 transition-colors duration-300"
               title="X"
             >
@@ -125,7 +125,7 @@ const Hero = ({ profileImage, name, titles }) => {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/ss_ramoliya07/"
+              href="https://www.instagram.com/shivam_s_ramoliya"
               className="text-gray-400 hover:text-emerald-400 transition-colors duration-300"
               title="Instagram"
             >
@@ -156,7 +156,7 @@ const Hero = ({ profileImage, name, titles }) => {
               </svg>
             </a>
             <a
-              href="https://leetcode.com/u/ShivamRS0712/"
+              href="https://leetcode.com/u/Shivam-S-Ramoliya/"
               className="text-gray-400 hover:text-emerald-400 transition-colors duration-300"
               title="LeetCode"
             >
