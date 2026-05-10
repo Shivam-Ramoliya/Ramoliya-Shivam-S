@@ -919,7 +919,7 @@ export const portfolioData = {
 
   // Resume
   resume: {
-    pdfUrl: "/Shivam_S_Ramoliya.pdf",
+    pdfUrl: "https://drive.google.com/file/d/1_2c_HJ7k4aNFPp8hrOjVWIIBci8KqaEY/view?usp=drive_link",
     positionsOfResponsibility: [
       {
         position: "Core",
