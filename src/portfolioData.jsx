@@ -29,6 +29,28 @@ export const portfolioData = {
   // Projects
   projects: [
     {
+      title: "InternNova",
+      category: "Web / Mobile",
+      description:
+        "InternNova is a premium internship recruitment portal facilitating seamless connections between students seeking opportunities and employers. Features a robust full-stack architecture integrated with a specialized, containerized FastAPI AI service that drives smart candidate shortlisting, LLM-powered profile evaluation, structural resume parsing via graph pipelines, and automated multi-format PDF/LaTeX resume generation.",
+      image: "/InternNova.png",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "FastAPI",
+        "Python",
+        "Docker",
+        "LangGraph / LangChain",
+        "LaTeX / Tectonic",
+        "Tailwind CSS",
+        "REST API",
+      ],
+      githubUrl: "https://github.com/Shivam-S-Ramoliya/InternNova",
+    },
+    {
       title: "NewsXpress",
       category: "Web / Mobile",
       description:
@@ -47,6 +69,26 @@ export const portfolioData = {
       ],
       liveUrl: "https://newsxpress-7bjk.onrender.com/",
       githubUrl: "https://github.com/Shivam-S-Ramoliya/NewsXpress",
+    },
+    {
+      title: "Skillify",
+      category: "Web / Mobile",
+      description:
+        "Skillify is a full-stack freelancer network where people build career momentum by shipping real projects with the right team. Built with a responsive React frontend, Node.js/Express backend, and MongoDB, the platform features robust user authentication, secure image uploads via Cloudinary, automatic email notifications via Nodemailer, real-time job application tracking, and an intuitive job discovery dashboard.",
+      image: "/Skillify.png",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "JWT (JsonWebToken)",
+        "Cloudinary",
+        "Nodemailer",
+        "Tailwind CSS",
+        "REST API",
+      ],
+      githubUrl: "https://github.com/Shivam-S-Ramoliya/Skillify",
     },
     {
       title: "TwinTrails",
@@ -101,7 +143,7 @@ export const portfolioData = {
       ],
       liveUrl: "https://github.com/Shivam-S-Ramoliya/noCapCoderz",
       githubUrl: "https://github.com/Shivam-S-Ramoliya/noCapCoderz",
-    },
+    }
   ],
 
   // Skills
