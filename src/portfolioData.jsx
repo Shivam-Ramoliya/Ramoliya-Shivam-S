@@ -48,6 +48,7 @@ export const portfolioData = {
         "Tailwind CSS",
         "REST API",
       ],
+       liveUrl: "https://intern-nova.in/",
       githubUrl: "https://github.com/Shivam-S-Ramoliya/InternNova",
     },
     {
@@ -88,6 +89,7 @@ export const portfolioData = {
         "Tailwind CSS",
         "REST API",
       ],
+       liveUrl: "https://skillify-app.onrender.com//",
       githubUrl: "https://github.com/Shivam-S-Ramoliya/Skillify",
     },
     {
